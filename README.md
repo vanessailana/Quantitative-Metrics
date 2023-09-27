@@ -1,6 +1,7 @@
 # Quantitative-Metrics
 
-
+ ### Meteor Evalution 
+ 
 1. **Data Preparation**: Replace the provided `input_file.csv` with your CSV file. Ensure that your CSV file contains two columns: one for reference sentences and one for generated sentences.
 
 2. **Run the Script**: Execute the `meteor.py` script with this command, replacing `input_file.csv` and `output_file.csv` with your file names:
@@ -8,6 +9,8 @@
     ```shell
     python meteor.py input_file.csv output_file.csv
     ```
+
+
 
 ### ROUGE Score Evaluation
 
@@ -20,6 +23,18 @@ To calculate ROUGE-L scores:
     ```shell
     python rouge.py input_file.csv output_file.csv
     ```
+
+### BLEU Evaluation 
+
+1. **Data Preparation**: Replace the provided `input_file.csv` with your CSV file. Ensure that your CSV file contains two columns: one for reference sentences and one for generated sentences.
+
+2. **Run the Script**: Execute the `meteor.py` script with this command, replacing `input_file.csv` and `output_file.csv` with your file names:
+
+    ```shell
+    python bley.py input_file.csv output_file.csv
+    ```1. **Data Preparation**: Replace the provided `input_file.csv` with your CSV file. Ensure that your CSV file contains two columns: one for reference sentences and one for generated sentences.
+
+    
 
 ## Requirements
 
